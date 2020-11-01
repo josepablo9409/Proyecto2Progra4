@@ -1,0 +1,53 @@
+#div_index{
+    padding-top: 75px;
+    width: 750px;
+    margin: 100px auto;
+    text-align: center;
+    border-style: groove;    
+    border-radius: 8px;
+}
+.div_inputs{
+    text-align: center;
+    width: 550px;
+    margin: 0 auto 20px auto;    
+}
+#label_user{
+    padding-right: 43px;
+}
+
+#div_view_principal,#div_main_addC,#div_main_addP,#div_main_listFac,#div_main_factTotal{
+    padding: 15px;    
+    width: 750px;
+    margin: 100px auto;
+    text-align: center;
+    border-style: groove;    
+    border-radius: 8px;
+}
+#div_main_factTotal{
+    width: 90%;
+}
+#div_main_addC{
+    margin: 45px auto !important;
+}
+
+.btn_menu_principal{
+    width: 200px !important;
+    margin: 10px !important;
+}
+#div_form_add_cliente > form > input , #div_main_addP > form > input,#div_main_addP > form > select{
+    display: block !important;
+    margin: 10px auto;
+}
+
+#div_main_addP > form > select{
+    width: 540px !important;
+    text-align: center !important;
+}
+
+#div_main_addP > form > input[type=number]{
+    height: 44px;
+    text-align: center !important;
+    font-size: large !important;
+}
+
+

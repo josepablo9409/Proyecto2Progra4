@@ -1,0 +1,51 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+}
+
+label{
+    font-size: 20px;
+    color: #7892c2;
+    font-family: 'Bad Script';
+    font-weight: bolder;
+}
+input{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: brown;
+    font-family: 'Bad Script';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+input[type=text],input[type=email],input[type=tel]{
+    color: darkolivegreen;
+}
+
+a{
+    font-size: 25px;
+    color: tomato;
+    font-family: 'Audiowide';
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+header{
+    margin-top: 15px;
+    text-align: center;
+}
+header > form > input{
+    margin: 15px;
+}
+.div_centrado{
+    text-align: center;
+    width: 800px;
+    margin: 50px auto;
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}

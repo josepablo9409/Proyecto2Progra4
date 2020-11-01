@@ -1,0 +1,13 @@
+/*body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+}*/
+
+#div_principal_perfil>form>label{
+    margin-left: 15px;
+}
+#div_principal_perfil{
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}

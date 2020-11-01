@@ -1,0 +1,22 @@
+#div_facT{
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}
+#div_main_factTotal{
+    text-align: center;
+    width: 85%;
+    margin: 50px auto;
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}
+
+#td_total{
+    font-weight: bold;
+}
+
+#td_total+td{
+    font-weight: bold;
+    color: blue;
+}

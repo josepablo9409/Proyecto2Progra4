@@ -1,0 +1,39 @@
+select{
+    font-size: 30px;
+    color: #283966;
+    font-family: 'Bad Script';
+    font-weight: bolder;
+}
+
+.element_form{
+    font-size: 20px !important;
+}
+form>label{
+    font-size: 20px !important;
+}
+
+input{
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+span{
+    margin: 25px;
+}
+#div_main_addC{
+    margin-top: 25px !important;
+    width: 800px !important;    
+}
+
+form>div,div>h1{
+    text-align: center;
+    /*display: inline;*/
+}
+
+#div_form_add_cliente{
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}
+.div_centrado{
+    width: 800px !important;
+}

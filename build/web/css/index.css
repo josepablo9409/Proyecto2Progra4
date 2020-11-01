@@ -1,0 +1,16 @@
+#div_index{
+    width: 550px;
+    margin: 100px auto;
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#input_idUser{
+    margin-left: 60px;
+}
+
+#input_password{
+    margin-left: 10px;
+}

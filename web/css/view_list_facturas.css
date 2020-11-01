@@ -1,0 +1,10 @@
+#div_form{
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}
+
+#div_tabla{
+    max-height: 310px;
+    overflow-y: auto;
+}

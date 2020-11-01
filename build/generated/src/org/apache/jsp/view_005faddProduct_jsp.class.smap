@@ -1,0 +1,24 @@
+SMAP
+view_005faddProduct_jsp.java
+JSP
+*S JSP
+*F
++ 0 view_addProduct.jsp
+view_addProduct.jsp
++ 1 encabezado.jsp
+encabezado.jsp
+*L
+1,14:50
+1#1,10:64
+14#0,6:74
+20,4:81
+23,4:85
+27,3:90
+29:93
+30:94,3
+31:97
+31,2:98
+32,3:99
+34,5:102
+38,16:107
+*E

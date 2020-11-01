@@ -1,0 +1,18 @@
+#div_listC{
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}
+#div_principal{
+    text-align: center;
+    width: 85%;
+    margin: 50px auto;
+    border-style: groove;
+    padding: 20px;
+    background-color: wheat;
+}
+
+#div_table{
+    max-height: 310px;
+    overflow-y: auto;
+}

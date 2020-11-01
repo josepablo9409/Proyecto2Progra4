@@ -1,0 +1,319 @@
+body{
+    font-family:sans-serif;
+    font-size: 20px;    
+    background-image: url(../img/background_1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+}
+body,html
+{
+    /*background-color: #fff;*/
+    margin:0;
+    padding:0;    
+    /*position:relative;*/    
+}
+h1
+{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+
+}
+.formulario_login 
+{
+
+    border: 0.5px ;
+    border-radius: 5px;
+    padding:17px;
+    width: 500px;
+    height:360px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+
+}
+@media (max-width:500px){
+
+    .formulario_login{
+        width:390px;
+        padding:17px;
+    }
+
+}
+
+
+label
+{ 
+    padding:1px;
+    font-size: 25px;
+    color: brown;
+    /*margin-left: 30%;*/
+}
+
+.header
+{
+    background-color: rgb(1, 10, 5);
+    opacity: 2px;
+}
+
+input[type=submit] {
+    text-align: center;
+    width: 180px;
+    box-shadow:inset 1px 1px 14px -3px #9fb4f2;
+    background-color:#7892c2;
+    border-radius:6px;
+    /*display:inline-block;*/
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:10px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+input[type=submit]:focus {
+    background-color: #0693cd;
+}
+input[type=submit]:hover
+{
+    background-color:#0000ff;
+    color:white;
+}
+
+select {
+    width: 20%;
+    top:10%;
+    height: 50px;
+    font-size: 62%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: #283966;
+    border: none;
+    border-bottom: 2px solid #0000ff;
+    color: white;
+    appearance: none;
+    padding: 10px;
+    padding-right: 38px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+/* For IE <= 11 */
+select::-ms-expand {
+    display: none; 
+}
+
+.select-icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 30px;
+    height: 36px;
+    pointer-events: none;
+    border: 2px solid #0000ff;
+    padding-left: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.select-icon svg.icon {
+    transition: fill 0.3s ease;
+    fill: white;
+}
+
+select:hover,
+select:focus {
+    color: white;
+    background-color: #000066;
+    border-bottom-color:white;
+}
+select:hover ~ .select-icon,
+select:focus ~ .select-icon {
+    background-color: white;
+    border-color: #0000ff;
+}
+select:hover ~ .select-icon svg.icon,
+select:focus ~ .select-icon svg.icon {
+    fill: #0000ff;
+}
+.input[type=submit]:active {
+    position:relative;
+    top:1px;
+}
+input[type=text],input[type=password],input[type=tel],input[type=email]
+{
+    padding:12px;
+    /*    margin-left: 30%;*/
+    color :black;
+    font-size: 20px;
+    width: 275px;
+
+
+    line-height: 20px;
+    padding: 8px 10px;
+    border-bottom: 3px solid #eee;
+
+    font-size: 20px;
+}
+input:hover[type=text],input:hover[type=password]
+{
+
+    background-color: white;
+    color :black;
+
+}
+
+.boton {
+    margin-left: 30%;
+    margin-top: 30px;
+    text-align: center;
+    width: 170px;
+    box-shadow:inset 1px 1px 14px -3px #9fb4f2;
+    background-color:#7892c2;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+.boton:hover {
+    background-color:#0000ff;
+    color:white;
+}
+.boton:active {
+    position:relative;
+    top:1px;
+}
+.boton2 {
+    margin-left: 30%;
+    margin-top: 30px;
+    text-align: center;
+    width: 180px;
+    box-shadow:inset 1px 1px 14px -3px #9fb4f2;
+    background-color:#7892c2;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+.boton2:hover {
+    background-color:#0000ff;
+    color:white;
+}
+.boton2:active {
+    position:relative;
+    top:1px;
+}
+
+.boton3 {
+    margin-left: 43%;
+
+    margin-top: 20%;
+    text-align: center;
+    width: 140px;
+    box-shadow:inset 1px 1px 14px -3px #9fb4f2;
+    background-color:#7892c2;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+.boton3:hover {
+    background-color:#0000ff;
+    color:white;
+}
+.boton3:active {
+    position:relative;
+    top:1px;
+}.boton3 {
+    margin-left: 43%;
+
+    margin-top: 20%;
+    text-align: center;
+    width: 140px;
+    box-shadow:inset 1px 1px 14px -3px #9fb4f2;
+    background-color:#7892c2;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+.boton3:hover {
+    background-color:#0000ff;
+    color:white;
+}
+.boton3:active {
+    position:relative;
+    top:1px;
+}
+.boton4 {
+
+    margin-left: 9%;
+    margin-top: 40px;
+    text-align: center;
+    width: 160px;
+    box-shadow:inset 1px 1px 14px -3px #9fb4f2;
+    background-color:#7892c2;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    text-decoration:none;
+}
+.boton4:hover {
+    background-color:#0000ff;
+    color:white;
+}
+.boton4:active {
+    position:relative;
+    top:1px;
+}
+#link_principal{
+    text-align: right;
+    border-bottom-style: outset;
+}
+
+#div_principal_perfil{
+    width: 400px;
+    margin: 90px auto;
+    text-align: center;
+}
+
+#tabla_list_facturas{
+    width: 730px;
+    margin: 85px auto;
+}
